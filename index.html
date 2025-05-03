@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Responsivo com Submenus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="menu-container">
+      <h1 class="logo">Hamburgueria</h1>
+      <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+      <nav class="menu">
+        <ul>
+          <li><a href="#" class="active">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li class="has-submenu">
+            <a href="#">Serviços</a>
+            <ul class="submenu">
+              <li><a href="#">Consultoria</a></li>
+              <li><a href="#">Desenvolvimento</a></li>
+              <li><a href="#">Suporte</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>Bem-vindo ao nosso menu</h2>
+    <p>X-Burguer</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
